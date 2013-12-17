@@ -1,0 +1,101 @@
+//AUFSAE Dashboard Trial Code
+//Rev. 1.0.1 James Gordon
+//12-10-2013
+//Code controls bank of shift lights and writes to 4D systems touchscreen display
+
+#include <genieArduino.h>
+
+const int NUMLEDS = 9;
+
+int leds[NUMLEDS] = {53,51,49,47,45,43,41,39,37};
+int potpin = A0;
+int potval;
+int lightcase;
+unsigned long timer = 0;
+boolean flash = false;
+
+void setup()
+{
+  for(int x=0; x < NUMLEDS; x++)
+  {
+    pinMode(leds[x], OUTPUT);
+  }
+  pinMode (potpin, INPUT);
+  genieBegin (GENIE_SERIAL, 9600);
+}
+void loop()
+{
+  potval = analogRead (potpin);
+  lightcase = map(potval,0,1023,0,4);
+  int lightscope = map(potval,0,1023,0,150);
+  genieWriteObject (GENIE_OBJ_GAUGE,0,potval);
+  genieWriteObject (GENIE_OBJ_SCOPE,0,lightscope);
+  switch (lightcase)
+  {
+    case 0:
+    {
+      for(int x=0; x < NUMLEDS; x++)
+      {
+        digitalWrite(leds[x], HIGH);
+      }
+    break;
+    }
+    case 1:
+    {
+      for(int x=0; x < NUMLEDS; x++)
+      {
+        digitalWrite(leds[x], HIGH);
+      }
+      for(int x=0; x < 4; x++)
+      {
+        digitalWrite(leds[x], LOW);
+      }
+    break;
+    }
+    case 2:
+    {
+      for(int x=0; x < NUMLEDS; x++)
+      {
+        digitalWrite(leds[x], HIGH);
+      }
+      for(int x=0; x < 7; x++)
+      {
+        digitalWrite(leds[x], LOW);
+      }
+      break;
+    }
+    case 3:
+    {
+      for(int x=0; x < NUMLEDS; x++)
+      {
+        digitalWrite(leds[x], LOW);
+      }
+      break;
+    }
+    case 4:
+    {
+      if (millis() - timer > 100)
+      {
+        timer = millis();
+        if (flash)
+        {
+          flash = false;
+          for(int x=0; x < NUMLEDS; x++)
+          {
+            digitalWrite(leds[x], HIGH);
+          }
+        }
+        else 
+        {
+          flash = true;
+          for(int x=0; x < NUMLEDS; x++)
+          {
+            digitalWrite(leds[x], LOW);
+          }
+        }
+      }
+      break;
+    }
+    default: break;
+  }
+}
