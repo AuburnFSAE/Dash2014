@@ -1,0 +1,13 @@
+{
+	"data_set":"custom_set1",
+	"buad_rate":"38400",
+	"channels":[
+		"RPM",
+		"ET",
+		"OP",
+		"BV",
+		"LA",
+		"Gr"
+	]
+
+}

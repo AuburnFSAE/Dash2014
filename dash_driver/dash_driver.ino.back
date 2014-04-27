@@ -1,0 +1,60 @@
+#include "wems.h"
+#include "wems_rpm_alloc.h"
+#include "wems_EcuComms.h"
+#include "genieArduino.h"
+
+#define TERM Serial2
+
+WemsEcuBufferBlock* _ecu_blk;
+wems_rpm_block* _rpm=(wems_rpm_block*) malloc(sizeof(wems_rpm_block));
+
+si16 ecu_channel_count=6;
+si16 comm_pin=11;
+si16 ecu_buad_rate=19200;
+si16 term_buad_rate=19200;
+si16 genie_baud_rate=9600;
+
+const si16 pin_count=3;
+si16 pins[pin_count] = {2,3,4};
+
+wems_rpm_map rmap;
+
+
+void TC3_Handler(){
+        TC_GetStatus(TC1, 0);
+        wems_EcuComms_Action(_ecu_blk);
+return;}
+
+void startTimer(Tc *tc, uint32_t channel, IRQn_Type irq, uint32_t frequency) {
+        pmc_set_writeprotect(false);
+        pmc_enable_periph_clk((uint32_t)irq);
+        TC_Configure(tc, channel, TC_CMR_WAVE | TC_CMR_WAVSEL_UP_RC | TC_CMR_TCCLKS_TIMER_CLOCK4);
+        uint32_t rc = VARIANT_MCK/128/frequency; //128 because we selected TIMER_CLOCK4 above
+        TC_SetRA(tc, channel, rc); //50% high, 50% low
+        TC_SetRC(tc, channel, rc);
+        TC_Start(tc, channel);
+        tc->TC_CHANNEL[channel].TC_IER=TC_IER_CPCS;
+        tc->TC_CHANNEL[channel].TC_IDR=~TC_IER_CPCS;
+        NVIC_EnableIRQ(irq);
+return;}
+bool tggl=0;
+void setup() {
+    pinMode(13, OUTPUT);
+    _ecu_blk=wems_EcuComms_Init(ecu_channel_count, 11);
+    wems_rpm_alloc(_rpm, pins, pin_count);
+    startTimer(TC1, 0, TC3_IRQn, ecu_buad_rate);
+
+}
+
+
+void loop() {
+
+    if(_ecu_blk->scan_complete){
+
+        digitalWrite(13, (tggl= !tggl, tggl)?HIGH:LOW);
+        delay(200);
+    _ecu_blk->scan_complete=0;}
+
+    digitalWrite(13, (tggl= !tggl, tggl)?HIGH:LOW);
+    delay(200);
+}   

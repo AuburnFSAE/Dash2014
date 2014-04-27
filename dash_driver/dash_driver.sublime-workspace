@@ -1,0 +1,1419 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"G",
+				"GENIE_SERIAL_1"
+			],
+			[
+				"HI",
+				"HIGH_ET"
+			],
+			[
+				"wems",
+				"wems_EcuComms"
+			],
+			[
+				"si",
+				"si16"
+			],
+			[
+				"wpm",
+				"wems_rpm_block"
+			],
+			[
+				"a",
+				"available"
+			],
+			[
+				"ecuch",
+				"ecu_channel_count-1"
+			],
+			[
+				"data",
+				"data_lo"
+			],
+			[
+				"da",
+				"data_hi"
+			],
+			[
+				"thi",
+				"thisByte"
+			],
+			[
+				"All",
+				"AllLedsOff"
+			],
+			[
+				"RPML",
+				"RpmLedState"
+			],
+			[
+				"pr",
+				"prv1"
+			],
+			[
+				"cl",
+				"clearLcd"
+			],
+			[
+				"ms",
+				"mssgBuff"
+			],
+			[
+				"upD",
+				"updateCount"
+			],
+			[
+				"Chan",
+				"ChannelField"
+			],
+			[
+				"up",
+				"updateRefresh"
+			],
+			[
+				"Cha",
+				"ChannelField"
+			],
+			[
+				"m",
+				"mssgBuff"
+			],
+			[
+				"num",
+				"NumChannels"
+			],
+			[
+				"rpmS",
+				"rpmSampleCount"
+			],
+			[
+				"rpm",
+				"rpmRatio"
+			],
+			[
+				"rpmp",
+				"rpmPinList"
+			],
+			[
+				"fram",
+				"frameRefresh"
+			],
+			[
+				"rpmR",
+				"rpmRatio"
+			],
+			[
+				"rpmT",
+				"rpmTime"
+			],
+			[
+				"LI",
+				"LINE0"
+			],
+			[
+				"arg",
+				"argv"
+			],
+			[
+				"n",
+				"numRpmPins"
+			],
+			[
+				"cha",
+				"channelVal"
+			],
+			[
+				"Ser",
+				"SerialMssgBuffer"
+			],
+			[
+				"dat",
+				"dataIter"
+			],
+			[
+				"n_",
+				"n_numChannels"
+			],
+			[
+				"head",
+				"headerCount"
+			],
+			[
+				"hea",
+				"headerMask"
+			],
+			[
+				"chan",
+				"channelStart"
+			],
+			[
+				"str",
+				"strmSample"
+			],
+			[
+				"pre",
+				"prevMode"
+			],
+			[
+				"Mot",
+				"moTecInterp"
+			],
+			[
+				"mss",
+				"mssgItr"
+			],
+			[
+				"Lin",
+				"LINE1"
+			],
+			[
+				"Sw",
+				"SWval"
+			],
+			[
+				"st",
+				"strPrint"
+			],
+			[
+				"prin",
+				"printToLcd"
+			],
+			[
+				"sp",
+				"strPrint"
+			],
+			[
+				"Ln",
+				"LINE0"
+			],
+			[
+				"L",
+				"LINE0"
+			],
+			[
+				"size",
+				"sizeof"
+			],
+			[
+				"clea",
+				"clear_lcd"
+			],
+			[
+				"CAN_",
+				"CAN_FAIL"
+			],
+			[
+				"CAN",
+				"CAN_FAILINIT"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/F/AuFSAE/port_calibrate/port_calibrate.ino",
+			"settings":
+			{
+				"buffer_size": 2261,
+				"line_ending": "Windows",
+				"name": "/*"
+			}
+		},
+		{
+			"file": "wems_rpm_alloc.cpp",
+			"settings":
+			{
+				"buffer_size": 2571,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wems_rpm_alloc.h",
+			"settings":
+			{
+				"buffer_size": 1936,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/F/AuFSAE/ardio/ardio.ino",
+			"settings":
+			{
+				"buffer_size": 1440,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dash_driver.channel-map",
+			"settings":
+			{
+				"buffer_size": 119,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "wems_EcuComms_StreamScanners.cpp",
+			"settings":
+			{
+				"buffer_size": 1952,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/F/AuFSAE/AUFSAE Dash Code/Motec_Interp.cpp",
+			"settings":
+			{
+				"buffer_size": 1520,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "genieArduino.h",
+			"settings":
+			{
+				"buffer_size": 6322,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "genieArduino.cpp",
+			"settings":
+			{
+				"buffer_size": 21340,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dash_driver.ino.back",
+			"settings":
+			{
+				"buffer_size": 1583,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/CodeLibrary/meta/EcuComm.meta",
+			"settings":
+			{
+				"buffer_size": 166,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/CLS/Desktop/AuFSAE/Open/PortLogger/bin/Release/PortLogger.config",
+			"settings":
+			{
+				"buffer_size": 288,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Program Files (x86)/Arduino/hardware/arduino/sam/cores/arduino/HardwareSerial.h",
+			"settings":
+			{
+				"buffer_size": 1325,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Program Files (x86)/Arduino/hardware/arduino/sam/cores/arduino/UARTClass.cpp",
+			"settings":
+			{
+				"buffer_size": 3675,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Program Files (x86)/Arduino/hardware/arduino/sam/cores/arduino/Stream.cpp",
+			"settings":
+			{
+				"buffer_size": 7277,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wems_DataStream.cpp",
+			"settings":
+			{
+				"buffer_size": 396,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "wems.h",
+			"settings":
+			{
+				"buffer_size": 91,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "wems.cpp",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dash_driver.ino",
+			"settings":
+			{
+				"buffer_size": 7292,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Program Files (x86)/Arduino/hardware/arduino/sam/cores/arduino/USB/CDC.cpp",
+			"settings":
+			{
+				"buffer_size": 8296,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+			[
+				"proj close",
+				"Project: Close"
+			],
+			[
+				"save all",
+				"File: Save All"
+			],
+			[
+				"ss c",
+				"Set Syntax: C"
+			],
+			[
+				"project close",
+				"Project: Close"
+			],
+			[
+				"ss json",
+				"Set Syntax: JSON"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"close all",
+				"File: Close All"
+			],
+			[
+				"add ",
+				"Project: Add Folder"
+			],
+			[
+				"tabs ",
+				"View: Toggle Tabs"
+			],
+			[
+				"pack ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack disco",
+				"Package Control: Discover Packages"
+			],
+			[
+				"s c++",
+				"Set Syntax: C++"
+			],
+			[
+				"ss c++",
+				"Set Syntax: C++"
+			],
+			[
+				"ss c+",
+				"Set Syntax: C++"
+			],
+			[
+				"ss ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"ss r",
+				"Set Syntax: R"
+			],
+			[
+				"ss ++",
+				"Set Syntax: C++"
+			],
+			[
+				"ss xml",
+				"Set Syntax: XML"
+			]
+		],
+		"width": 456.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/F/AuFSAE/dash_driver/dash_driver.ino",
+		"/F/AuFSAE/dash_driver/dash_driver.sublime-project",
+		"/C/Users/CLS/Documents/CodeLibrary/AuFsaeDash/DevelopmentDisplay/DevelopmentDisplay.ino",
+		"/F/AuFSAE/sam_int/sam_int.ino",
+		"/F/AuFSAE/sam_int/genieArduino.cpp",
+		"/F/AuFSAE/sam_int/genieArduino.h",
+		"/F/AuFSAE/sam_int/wems_EcuComms_EcuBufferBlock.cpp",
+		"/F/AuFSAE/sam_int/wems_EcuComms_StreamScanners.cpp",
+		"/F/AuFSAE/sam_int/wems_EcuComms_StreamScanners.h",
+		"/F/AuFSAE/sam_int/wems_EcuComms_EcuBufferBlock.h",
+		"/F/AuFSAE/sam_int/wems_DataStream.cpp",
+		"/C/Users/CLS/Documents/Arduino/X/X.ino",
+		"/C/Users/CLS/Documents/Potienometers.txt",
+		"/C/Users/CLS/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/F/AuFSAE/dash_driver/dash_driver.sublime-workspace",
+		"/C/Users/CLS/Google Drive/School/Measurements/Project/mech_3050_executive_summary_example.tex",
+		"/C/Users/CLS/Google Drive/School/Measurements/Project/htex.bat",
+		"/C/Tex/MiKTeX 2.9/tex4ht/base/win32/tex4ht.env",
+		"/C/Users/CLS/Google Drive/School/Measurements/Project/beep.txt",
+		"/C/Tex/MiKTeX 2.9/tex4ht/base/win32/tex4ht.env.back",
+		"/C/Users/CLS/Documents/CodeLibrary/AuFsaeDash/DevelopmentDisplay/Motec_Interp.cpp",
+		"/C/Users/CLS/Documents/CodeLibrary/AuFsaeDash/DevelopmentDisplay/Motec_Interp.h",
+		"/C/Users/CLS/Documents/CodeLibrary/AuFsaeDash/DevelopmentDisplay/MotecUtil.cpp",
+		"/C/Users/CLS/Documents/CodeLibrary/AuFsaeDash/LedAlignment/LedAlignment.ino",
+		"/C/Users/CLS/Documents/Arduino/MotecSerial/MotecSerial.ino",
+		"/C/Users/CLS/Documents/CodeLibrary/AuFsaeDash/DevelopmentDisplay/MotecUtil.h",
+		"/C/Users/CLS/AppData/Roaming/Sublime Text 2/Packages/C++/C.tmLanguage",
+		"/C/Users/CLS/Documents/Arduino/SerLcdBaudSet/SerLcdBaudSet.ino",
+		"/F/MotecDisplay/MotecUtil.h",
+		"/F/MotecDisplay/MotecDisplay.ino",
+		"/F/LcdSettings/LcdSettings.ino",
+		"/F/MotecDisplay/BaseDisplay/BaseDisplay.ino",
+		"/F/MotecDisplay/Motec_Interp.h",
+		"/C/Users/CLS/Documents/Meetings/16_MAY_2013.meet",
+		"/F/MotecDisplay/MotecUtil.cpp",
+		"/F/MotecDisplay/BaseDisplay/ChannelManager.cpp",
+		"/F/MotecDisplay/BaseDisplay/ChannelManager.h",
+		"/C/Users/CLS/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/F/MotecDisplay/BaseDisplay/Motec_Interp.h",
+		"/C/Users/CLS/Documents/arduino-1.0.3/libraries/MotecInterp/Motec_Interp.cpp",
+		"/C/Users/CLS/Documents/arduino-1.0.3/libraries/MotecInterp/Motec_Interp.h",
+		"/C/Users/CLS/Documents/arduino-1.0.3/libraries/MotecInterp/MotecGlobal.h",
+		"/F/MotecDisplay/BaseDisplay/MotecGlobal.h",
+		"/F/MotecDisplay/BaseDisplay/Motec_Interp.cpp",
+		"/F/MotecDisplay/BaseDisplay/MotecUtil.cpp",
+		"/F/MotecDisplay/BaseDisplay/MotecUtil.h",
+		"/C/Users/CLS/Documents/arduino-1.0.3/libraries/MotecInterp/ChannelManager.cpp",
+		"/C/Users/CLS/Documents/arduino-1.0.3/libraries/MotecInterp/ChannelManager.h",
+		"/C/Users/CLS/Documents/arduino-1.0.3/libraries/MotecInterp/MotecUtil.cpp",
+		"/C/Users/CLS/Documents/arduino-1.0.3/libraries/MotecInterp/MotecUtil.h",
+		"/C/Users/CLS/Documents/arduino-1.0.3/libraries/MotecInterp/RpmFilter.cpp",
+		"/F/MotecDisplay/BaseDisplay/MotecDisplay.ino",
+		"/F/MotecDisplay/MotecGlobal.h",
+		"/F/MotecDisplay/ChannelManager.h",
+		"/F/MotecDisplay/ChannelManager.cpp",
+		"/F/MotecDisplay/Motec_Interp.cpp",
+		"/F/MotecDisplay/RpmFilter.cpp",
+		"/F/MotecDisplay/SerLcdDisplay.h",
+		"/C/Users/CLS/Google Drive/CodeLibraryNetwork/Data/Gtr/GtrParser.rb",
+		"/C/Users/CLS/Google Drive/CodeLibraryNetwork/SourceBackUp/CodeLibrary/AttributeProviders.h",
+		"/C/Users/CLS/Google Drive/CodeLibraryNetwork/SourceBackUp/CodeLibrary/AttributeFileReader.h",
+		"/C/Users/CLS/Google Drive/CodeLibraryNetwork/SourceBackUp/CodeLibrary/CodeLibrary.cpp",
+		"/C/Users/CLS/Google Drive/CodeLibraryNetwork/SourceBackUp/CodeLibrary/CodeLibrary.h",
+		"/C/Users/CLS/Google Drive/CodeLibraryNetwork/SourceBackUp/CodeLibrary/AttributeFileReader.cpp",
+		"/C/Users/CLS/AppData/Local/Temp/Motec_Interp.cpp",
+		"/C/Users/CLS/Documents/arduino-1.0.3/lib/preferences.txt",
+		"/F/MotecDisplay/MotecDisplay/SerLcdDisplay.h",
+		"/F/MotecDisplay/Drive0/Drive0.ino",
+		"/C/Users/CLS/Documents/Arduino/ResetLCD/ResetLCD.ino",
+		"/c/Users/CLS/Google Drive/CodeLibraryNetwork/Data/tcPlot.gle",
+		"/C/Users/CLS/Google Drive/CodeLibraryNetwork/Data/csv_to_tsv.rb",
+		"/C/Users/CLS/Documents/Visual Studio 2012/Projects/hex_to_data/hex_to_data/hex_to_data.cpp",
+		"/C/Users/CLS/Google Drive/CodeLibraryNetwork/Data/GTR/GtrParser.rb",
+		"/C/Users/CLS/Google Drive/CodeLibraryNetwork/Data/GTR/Chevy345_V8.eng",
+		"/C/Users/CLS/Google Drive/CodeLibraryNetwork/Data/MC_Temp_Testing_1.tsv",
+		"/C/Users/CLS/Google Drive/CodeLibraryNetwork/Data/MC Temp Testing 1.csv",
+		"/C/Users/CLS/Documents/arduino-1.0.3/libraries/SoftwareSerial/SoftwareSerial.h",
+		"/C/Users/CLS/Documents/arduino-1.0.3/libraries/SoftwareSerial/SoftwareSerial.cpp",
+		"/C/Users/CLS/AppData/Local/Temp/MotecUtil.cpp",
+		"/C/Users/CLS/Documents/arduino-1.0.3/libraries/SoftwareSerial/SoftwareSerialPin.cpp",
+		"/C/Users/CLS/Documents/arduino-1.0.3/libraries/SoftwareSerial/SoftwareSerialPin.h",
+		"/F/MotecDisplay - Copy/MotecDisplay.ino",
+		"/C/Users/CLS/Documents/Visual Studio 2012/Projects/hex_to_data/Release/DataCheck1.txt",
+		"/C/Users/CLS/Google Drive/CodeLibraryNetwork/SourceBackUp/CodeLibrary/CodeLibraryIO.h",
+		"/C/Users/CLS/Google Drive/CodeLibraryNetwork/Data/tcPlot.gle",
+		"/F/hex_to_data.cpp",
+		"/F/data_parse.cpp",
+		"/C/Gle4/readme-win32.txt",
+		"/F/Data3.txt",
+		"/C/Users/CLS/Documents/visual studio 2012/Projects/hex_to_data/Release/ConvData.txt",
+		"/C/Users/CLS/Documents/Visual Studio 2012/Projects/hex_to_data/hex_to_data/Release/HexConverter.bat",
+		"/C/Users/CLS/Google Drive/CodeLibraryNetwork/Data/MC Temp Testing Day2 run2.csv",
+		"/C/Users/CLS/Google Drive/CodeLibraryNetwork/Data/TC Positions 032913.txt",
+		"/C/Users/CLS/Google Drive/CodeLibraryNetwork/Data/MC Temp Testing 2.csv",
+		"/C/Users/CLS/Documents/Essay2/essay_repo/essay2.tex",
+		"/C/Users/CLS/Documents/Essay2/essay_repo/essay.tex",
+		"/C/Users/CLS/Downloads/Servo_Control_TMRv1.c",
+		"/C/Users/CLS/Documents/Essay2/essay_repo/Strange_vs_Fairy.tex",
+		"/F/MotecSerialBits/MotecSerialBits.ino",
+		"/F/MotecDisplay - Copy/Motec_Interp.cpp",
+		"/C/Users/CLS/AppData/Roaming/Sublime Text 2/Packages/C++/C++.tmLanguage",
+		"/C/Users/CLS/Documents/CodeLibrary/codelibrary_cpp/codelibrarycpp.cpp",
+		"/C/Users/CLS/Documents/CodeLibrary/codelibrary_cpp/ClGlobal.h",
+		"/C/Users/CLS/Documents/CodeLibrary/codelibrary_cpp/CodeLibraryCpp.h",
+		"/C/Users/CLS/Google Drive/CodeLibraryNetwork/SourceBackUp/CodeLibrary/CodeLibraryMetaData.h",
+		"/C/Users/CLS/Documents/CodeLibrary/codelibrary_cpp/ClMeta.h",
+		"/C/Users/CLS/Documents/SerialLog.txt",
+		"/C/Users/CLS/Documents/CodeLibrary/codelibrary_cpp/SetAttribute.h",
+		"/C/Users/CLS/Documents/CodeLibrary/codelibrary_cpp/SetAttributeMap.cpp",
+		"/C/Users/CLS/Documents/CodeLibrary/codelibrary_cpp/ClSet.h",
+		"/F/Motec_Interp/MotecDisplay.ino",
+		"/F/Motec_Interp/Motec_Interp.h",
+		"/F/Motec_Interp/Motec_Interp.cpp",
+		"/C/Users/CLS/Documents/CodeLibrary/codelibrary_cpp/CodeLibraryTypes.h",
+		"/C/Users/CLS/Documents/Arduino/MotecSerial/MotecSerialInterp.h",
+		"/F/Motec_Interp/Motec_Interp.ino",
+		"/C/Users/CLS/Google Drive/CodeLibraryNetwork/SourceBackUp/CodeLibrary/IAttributeProvider.h",
+		"/C/Users/CLS/Documents/Arduino/MotecSerial/motecserial.ino",
+		"/C/Users/CLS/Google Drive/CodeLibraryNetwork/Data/gpx/GPX track file",
+		"/C/Users/CLS/Documents/Arduino/CanRecieve/CanRecieve.ino",
+		"/C/Users/CLS/Documents/Arduino/CanRecieve/readme.notes",
+		"/C/Users/CLS/Google Drive/CodeLibraryNetwork/Preferences.sublime-settings",
+		"/C/Users/CLS/Google Drive/CodeLibraryNetwork/canbus_shield-v12.pdf",
+		"/C/Users/CLS/Documents/Arduino/CanCodeSample/mcp2515.h",
+		"/C/Users/CLS/Documents/Arduino/CanCodeSample/mcp2515.cpp",
+		"/C/Users/CLS/Documents/Arduino/CAN_BUS_Shield_Code/CAN_BUS_Shield/mcp_can_dfs.h",
+		"/C/Users/CLS/Documents/Arduino/CAN_BUS_Shield_Code/CAN_BUS_Shield/mcp_can.h",
+		"/C/Users/CLS/Documents/Arduino/ecu_reader_logger/ecu_reader_logger.ino"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ET",
+			"Serial2",
+			"begin",
+			"Serial",
+			"softterm",
+			"La1",
+			"object",
+			"serial_buad_rate",
+			"11",
+			"SerialUSB",
+			"XBEE",
+			"TERM",
+			"\\delta",
+			"huge",
+			"uint",
+			"int16",
+			"uint8",
+			"int32",
+			"int16",
+			"uint",
+			"Rpm",
+			"numbers",
+			"Serial.",
+			"d0P",
+			"eTempPrv",
+			"tpPrv",
+			"eTemp",
+			"tp",
+			"Serial.",
+			"sLcd",
+			"delayMicroSeconds",
+			"rpm.",
+			"count",
+			"Rpm&",
+			"rpm.",
+			"Rpm&",
+			"clearLcd",
+			"clear",
+			"}\n",
+			"numLeds",
+			"ledPins",
+			"[(",
+			".add",
+			"on",
+			"uint16",
+			"size",
+			"?",
+			"MssgMode",
+			"MotecInterp",
+			"\\n",
+			"FieldAttribute",
+			"CODELIBRARY_API",
+			"FieldAttribute",
+			"CodeLibraryTypes",
+			"halfbitDelay",
+			"bit19200Delay",
+			"lcd.",
+			"Serial.",
+			"_init",
+			"500",
+			"mode_mask",
+			"mcp2515_readRegister",
+			"setcanctrl",
+			"mcp2515_setCANCTRL_Mode",
+			"mcp2515_init"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"TERM",
+			"\\Delta",
+			"large",
+			"ui",
+			"si16",
+			"ui8",
+			"si32",
+			"si16",
+			"ui",
+			"",
+			"sLcd.",
+			"v1_prv",
+			"v0_prv",
+			"v1",
+			"v0",
+			"sLcd.",
+			"Serial",
+			"delayMicroseconds",
+			"rpmHnd.",
+			"rpmPinCount",
+			"Rpm*",
+			"rpm->",
+			"Rpm*",
+			"rpm.Count",
+			"rpm.Pins",
+			"[",
+			"off",
+			"onItr",
+			"int16",
+			"Mssg_Mode",
+			"SerialInterp",
+			" ",
+			"ClSetMetaData",
+			"ClAPI",
+			"ClSetMetaData",
+			"CodeLibraryMeta",
+			"halfBitDelay",
+			"bitDelay",
+			"Serial.",
+			"lcd."
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 19,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/F/AuFSAE/port_calibrate/port_calibrate.ino",
+					"settings":
+					{
+						"buffer_size": 2261,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1987,
+								1987
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/*",
+							"syntax": "Packages/C++/C.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 893.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "wems_rpm_alloc.cpp",
+					"settings":
+					{
+						"buffer_size": 2571,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2320,
+								2320
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1195.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "wems_rpm_alloc.h",
+					"settings":
+					{
+						"buffer_size": 1936,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1879,
+								1927
+							]
+						],
+						"settings":
+						{
+							"spell_check": false,
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 627.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/F/AuFSAE/ardio/ardio.ino",
+					"settings":
+					{
+						"buffer_size": 1440,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								526,
+								425
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 413.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "dash_driver.channel-map",
+					"settings":
+					{
+						"buffer_size": 119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								112,
+								112
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "wems_EcuComms_StreamScanners.cpp",
+					"settings":
+					{
+						"buffer_size": 1952,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1611,
+								1611
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 381.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/F/AuFSAE/AUFSAE Dash Code/Motec_Interp.cpp",
+					"settings":
+					{
+						"buffer_size": 1520,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 519.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "genieArduino.h",
+					"settings":
+					{
+						"buffer_size": 6322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24,
+								28
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2812.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "genieArduino.cpp",
+					"settings":
+					{
+						"buffer_size": 21340,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15900,
+								15911
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 9088.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "dash_driver.ino.back",
+					"settings":
+					{
+						"buffer_size": 1583,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								425,
+								425
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/C/CodeLibrary/meta/EcuComm.meta",
+					"settings":
+					{
+						"buffer_size": 166,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/Users/CLS/Desktop/AuFSAE/Open/PortLogger/bin/Release/PortLogger.config",
+					"settings":
+					{
+						"buffer_size": 288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								49,
+								49
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/C/Program Files (x86)/Arduino/hardware/arduino/sam/cores/arduino/HardwareSerial.h",
+					"settings":
+					{
+						"buffer_size": 1325,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								831,
+								831
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 97.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/C/Program Files (x86)/Arduino/hardware/arduino/sam/cores/arduino/UARTClass.cpp",
+					"settings":
+					{
+						"buffer_size": 3675,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1613.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/C/Program Files (x86)/Arduino/hardware/arduino/sam/cores/arduino/Stream.cpp",
+					"settings":
+					{
+						"buffer_size": 7277,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4596.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "wems_DataStream.cpp",
+					"settings":
+					{
+						"buffer_size": 396,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								396,
+								396
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "wems.h",
+					"settings":
+					{
+						"buffer_size": 91,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								91,
+								91
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "wems.cpp",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 8,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "dash_driver.ino",
+					"settings":
+					{
+						"buffer_size": 7292,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2519,
+								2519
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1422.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "/C/Program Files (x86)/Arduino/hardware/arduino/sam/cores/arduino/USB/CDC.cpp",
+					"settings":
+					{
+						"buffer_size": 8296,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4183.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"dash",
+				"dash_driver/dash_driver.ino"
+			],
+			[
+				"con",
+				"/C/Users/CLS/Desktop/AuFSAE/Open/PortLogger/bin/Release/PortLogger.config"
+			],
+			[
+				"porl",
+				"/F/AuFSAE/port_calibrate/port_calibrate.ino"
+			],
+			[
+				"port",
+				"/F/AuFSAE/port_calibrate/port_calibrate.ino"
+			],
+			[
+				"ste",
+				"wems_EcuComms_StreamScanners.cpp"
+			],
+			[
+				"ge",
+				"genieArduino.cpp"
+			],
+			[
+				"dri",
+				"dash_driver.ino"
+			],
+			[
+				"streamsc",
+				"wems_EcuComms_StreamScanners.cpp"
+			],
+			[
+				"",
+				"Package Control Messages"
+			],
+			[
+				"samin",
+				"/F/AuFSAE/sam_int/sam_int.ino"
+			],
+			[
+				"e",
+				"/F/AuFSAE/sam_int/wems_EcuComms_StreamScanners.cpp"
+			],
+			[
+				"ecu",
+				"/F/AuFSAE/sam_int/wems_EcuComms_StreamScanners.h"
+			],
+			[
+				"sami",
+				"/F/AuFSAE/sam_int/sam_int.ino"
+			],
+			[
+				"genh",
+				"/F/AuFSAE/sam_int/genieArduino.h"
+			],
+			[
+				".cpp",
+				"/C/Users/CLS/Documents/CodeLibrary/AuFsaeDash/DevelopmentDisplay/MotecUtil.cpp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"e",
+				"/F/AuFSAE/TermComms/EmbedTerm/EmbedTerm/embed_term.sublime-project"
+			],
+			[
+				"",
+				"/C/Users/CLS/Documents/TermComms/EmbedTerm/EmbedTerm/embed_term.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
