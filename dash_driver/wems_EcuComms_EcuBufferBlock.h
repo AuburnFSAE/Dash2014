@@ -5,30 +5,20 @@
 #include "wems_typedef.h"
 #include "wems_DataStream.h"
 
-
-/**
-\file
+/** @page EcuBuffer EcuBufferBlock Api.
+	wems_EcuComms_EcuBufferBlock.h defines the WemsEcuBufferBlock api.
+	This part of the api defines the functions that control and read an 
+	array of data that represents a set of channels from the ecu. It also provides
+	functions for scanning and enumerating the data from a stream.
 */
-
-/**
-	This header is one file the descirbes the ecu-comms namespace.
-	wems_ecu-comms_ecubuffer-block defines the ecubuffer-block datatype.
-	This datatype and the functions are defined in functional procedural
-	manner similar to the gsl library. This is done for the reasons of
-	-> Reduce overhead of objects calls in embedded enviroment.
-	-> Reduce cohesion of object functions(seperated responsibility to functions etc.)
-	►
-*/
-
 
 struct WemsEcuBufferBlock{
-	ui8  scan_complete;
+	volatile ui8  scan_complete;
 	ui32 header;
 	ui32 bitque;
 	ui16 channel_pos;
 	ui16 bit_pos;
-	si16 num_channels;
-	si16 ecu_channel_count;
+	si16 channel_count;
 	si16 comm_pin;
 	void* object_data;
 	si16 reset_cnt;
