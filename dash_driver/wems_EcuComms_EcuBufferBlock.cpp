@@ -23,9 +23,10 @@ WemsEcuBufferBlock* wems_EcuComms_GetEcuBlock(si16 n_num_channels, si16 n_comm_p
 
 	ecu_block->scan_complete=0;
 	ecu_block->bitque=0;
+	ecu_block->num_channels=n_num_channels;
 	ecu_block->channel_pos=0;
 	ecu_block->bit_pos=0;
-	ecu_block->channel_count=n_num_channels;
+	ecu_block->ecu_channel_count=0;
 	ecu_block->comm_pin = n_comm_pin;
 	ecu_block->object_data=0;
 

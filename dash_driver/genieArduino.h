@@ -107,8 +107,6 @@
 
 #define		GENIE_FRAME_SIZE	6
 
-//static bool genie_attached=true;
-
 struct genieFrameReportObj {
 	uint8_t		cmd;
 	uint8_t		object;

@@ -1,4 +1,3 @@
-
 #include <Arduino.h>
 #include <stdlib.h>
 #include "wems_typedef.h"
@@ -6,48 +5,18 @@
 #ifndef WEMS_RPM_ALLOC_H
 #define WEMS_RPM_ALLOC_H
 
-/** @page RPM RPM API.
-	wems_rpm_alloc.h defines the wems_rpm_block api.
-	This part of the api encapsulates a sets of pins that are used to
-	control led lights through the wems_rpm_block and rpm functions.
+/** wems_rpm_alloc defines the rpm block and shiftlights api.
+This part of the api encapsulates a sets of pins that are used to
+control led lights through the wems_rpm_block data type.
 */
 
-
-/**
-@bug 
-   There seems to be some problem with the rpm struct and indirect pointers. for instance
-   if inside a function, the call _rpm_struct->pins[0] is made it crashes the controller. 
-   The problem does not seem to affect the ecu_block structure, which has 1 fewer pointer 
-   than rpm_blk. For now rpm_blk is set so that all memory is allocated statically, which is 
-   inconvient for and end user but seems to be stable.
-*/
 
 /** @struct wems_rpm_block
-	@brief encapsulates rpm lights that are defined by the pins member.
-	
-	@var wems_rpm_block::pins
-	The array pins that the controler uses to control
-
-	@var wems_rpm_block::count
-	The number of led pins controled.
-	
-	@var wems_rpm_block::active_level 
-   	Member 'active_level' defines whether the pins should be activated high or low.
-   	For Arduino source it should be set by wems_rpm_block.active_level = HIGH
-   	By default wems_rpm_block are create to be active HIGH
-
-   	@var wems_rpm_block::table
-   	A table(ie array) that holds the rpm values that are mapped to the rpm leds. For instance 
-   	setting table to [7000, 10500, 12000] will trigger the rpm lights at those rpm values.
-   	Below is an example of allocating an rpm struct with certian rpm values
-   	@code
-		wems_rpm_block rpm;
-		const si16 pin_count=3;
-		si16 pins[pin_count]={2,3,4};
-		si16 rpm_table[pin_count]={7000, 10500, 12000};
-
-		wems_rpm_Init(rpm, pins, rpm_table, pin_count);
-   	@endcode
+ *  @brief This structure encapsulates rpm lights that are defined by the pins member
+ *  @var wems_rpm_block::active_level 
+ *  	Member 'active_level' defines whether the pins should be activated high or low.
+ *  	For Arduino source it should be set by wems_rpm_block.active_level = HIGH
+ *  	By default wems_rpm_block are create to be active HIGH
  */
 struct wems_rpm_block{
 	si16* pins;
@@ -56,28 +25,41 @@ struct wems_rpm_block{
 	si16 max_rpm;
 	si16 rpm_range;
 	si16 active_level;
-	si16* table;
-	si16  table_size;
+	si16 shift_pin;
+	si16 shift_rpm;
+	si16 shift_level;
+	si16* map;
+	si16  map_size;
 };
 
 
+#define LEVELFLIP(x) x==HIGH ? LOW : HIGH
 
-/** Initializes a wems_rpm_block*.
-	Initializes a rpm struct and returns the reference to it. The values of its rpm table and pins will be copied from
-	rpm_table and pins respectivly. rpm_table and pins are expected to be the same length. 
-	The min and max values are set according to the first and last element of the rpm_table.
+void wems_rpm_alloc( wems_rpm_block* blk, si16* rpm_pins, si16 n_count);
+
+void wems_rpm_minmax_alloc(	wems_rpm_block* blk,
+		si16* rpm_pins,
+		si16 num_pins,
+		si16 min,
+		si16 max);
+
+void wems_rpm_set_shiftpoint(wems_rpm_block* blk, si16 shift_rpm, ui8 shift_pin);
+
+/** wems_rpm_set_ligths479 partitions the rpm band into three blocks.
+	The blocks are such that the lights are ratio by (4/9) then (7/9) and (9/9). 
+	By this pattern light 1-4 will light 	when entering the band, 
+	then 5-7 for the middle band and finally 8-9 for the final band.
 */
-void wems_rpm_Init(wems_rpm_block* blk, si16* pins, si16* rpm_table, si16 pin_count);
+void wems_rpm_set_ligths479(const wems_rpm_block* blk, si16 rpm_val, ui8 direction);
 
+void wems_rpm_toggle_shift2(const wems_rpm_block* blk, si16 rpm_val, si16 ms_delay );
 
-// wems_rpm_alloc_ligthstable allocates blk->table to the values in rpm_values.
-void wems_rpm_alloc_ligthstable(wems_rpm_block* blk, const si16* rpm_values, si16 num_rpm_values);
+/** wems_rpm_set_ligthsmap directly partitions rpm pins to individual values.
+	wems_rpm_set_lightsmap is useful when nonlinear ranges are desired.
+*/
+void wems_rpm_set_lightsmap(const wems_rpm_block* blk, const si16 rx);
 
-void wems_rpm_set_lights(const wems_rpm_block* blk, const si16 rpm);
-
-void wems_rpm_alloff(const wems_rpm_block* blk);
-
-void wems_rpm_pulsepin(const wems_rpm_block* blk,  si16 pin, si16 pulse_count);
+void wems_rpm_reset(const wems_rpm_block* blk);
 
 #endif
 
