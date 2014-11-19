@@ -538,7 +538,7 @@ uint16_t genieWriteObject (uint16_t object, uint16_t index, uint16_t data)
 {
 	uint16_t msb, lsb ;
 	uint8_t checksum ;
-    
+   // if(!genie_attached) return 0;
 	_genieWaitForIdle();
     
 	lsb = lowByte(data);
@@ -678,6 +678,7 @@ void genieAttachEventHandler (genieUserEventHandlerPtr handler) {
 //
 
 void genieBegin (Stream &serial) {
+	//if(genie_attached)
 	_serial = &serial;
 }
 
